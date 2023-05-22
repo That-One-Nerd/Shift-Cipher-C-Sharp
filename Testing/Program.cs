@@ -1,11 +1,11 @@
-﻿using JacobMaurer.ShiftCipher;
+﻿using CorgiCoder.ShiftCipher;
 
-namespace JacobMaurer.Testing;
+namespace CorgiCoder.Testing;
 
 public static class Program
 {
     public static void Main()
     {
-
+        ShiftSerializer shift = new();
     }
 }

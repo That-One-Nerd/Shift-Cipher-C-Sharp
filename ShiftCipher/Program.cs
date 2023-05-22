@@ -1,9 +1,16 @@
-﻿namespace JacobMaurer.ShiftCipher;
+﻿using System;
 
-public static class ShiftCipher
+namespace CorgiCoder.ShiftCipher;
+
+public class ShiftSerializer
 {
-    static ShiftCipher()
+    static ShiftSerializer()
     {
         Console.WriteLine("Loaded");
+    }
+
+    public ShiftSerializer()
+    {
+
     }
 }
