@@ -1,0 +1,10 @@
+# Compilation files.
+ShiftCipher/bin
+ShiftCipher/obj
+
+Testing/bin
+Testing/obj
+
+# Visual Studio stuff.
+ShiftCipher/.vs
+Testing/.vs

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShiftCipher", "ShiftCipher.csproj", "{ED2BA0A8-49A4-48C7-B22C-EA120D871199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "..\Testing\Testing.csproj", "{C58B7E62-8A1D-4F1C-A160-C5E6366A3C57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED2BA0A8-49A4-48C7-B22C-EA120D871199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED2BA0A8-49A4-48C7-B22C-EA120D871199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED2BA0A8-49A4-48C7-B22C-EA120D871199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED2BA0A8-49A4-48C7-B22C-EA120D871199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C58B7E62-8A1D-4F1C-A160-C5E6366A3C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C58B7E62-8A1D-4F1C-A160-C5E6366A3C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C58B7E62-8A1D-4F1C-A160-C5E6366A3C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C58B7E62-8A1D-4F1C-A160-C5E6366A3C57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50ADF85F-11D5-416F-A8B0-0D30F1634269}
+	EndGlobalSection
+EndGlobal
