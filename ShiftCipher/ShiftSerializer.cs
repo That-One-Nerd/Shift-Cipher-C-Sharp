@@ -9,7 +9,7 @@ public class ShiftSerializer
 
     static ShiftSerializer()
     {
-        // Print the logo! That's the most important part.
+        // Print the logo!
         // This is the best way I, CorgiCoder, can think of to do this.
         string[] textElements1 = new string[]
         {
@@ -140,51 +140,54 @@ public class ShiftSerializer
               ██████
             ██      ██
             ██
-            ██
-            ██
-            ██
+              ██████
+                    ██
+                    ██
             ██      ██
               ██████
+            """,
+            """
+
+            ██
+            ██
+            ██
+            ██████
+            ██    ██
+            ██    ██
+            ██    ██
+            """,
+            """
+
+
+            ██
+
+            ██
+            ██
+            ██
+            ██
+            """,
+            """
+
+              ██████
+            ██
+            ██
+            ██████
+            ██
+            ██
+            ██
             """,
             """
             
-
-
-              ██████
-            ██      ██
-            ██      ██
-            ██      ██
-              ██████
+              ██
+              ██
+              ██
+            ██████
+              ██
+              ██
+              ██
             """,
             """
-
-
-
-            ██  ████
-            ████
-            ██
-            ██
-            ██
-            """,
-            """
-
-              ██████
-            ██      ██
-            ██      ██
-              ██████
-                    ██
-            ██      ██
-              ██████
-            """,
-            """
-
-
-
-            ██
-
-            ██
-            ██
-            ██
+                  
             """,
             """
               ██████
@@ -197,24 +200,34 @@ public class ShiftSerializer
               ██████
             """,
             """
-            
 
 
-              ██████
-            ██      ██
-            ██      ██
-            ██      ██
-              ██████
+            ██
+
+            ██
+            ██
+            ██
+            ██
             """,
             """
-                    ██
-                    ██
-                    ██
-              ████████
+
+            ████████
             ██      ██
             ██      ██
-            ██      ██
-              ████████
+            ████████
+            ██
+            ██
+            ██
+            """,
+            """
+
+            ██
+            ██
+            ██
+            ██████
+            ██    ██
+            ██    ██
+            ██    ██
             """,
             """
 
@@ -235,26 +248,6 @@ public class ShiftSerializer
             ██
             ██
             ██
-            """,
-            """
-              ██
-              ██
-            ██
-
-
-
-
-
-            """,
-            """
-
-
-
-              ██████
-            ██
-              ██████
-                    ██
-              ██████
             """
         };
         ConsoleColor[] colors = { ConsoleColor.Red, ConsoleColor.DarkYellow, ConsoleColor.Yellow,
@@ -279,19 +272,19 @@ public class ShiftSerializer
         }
 
         position = 0;
-        for (int i = 0; i < textElements1.Length; i++)
+        for (int i = 0; i < textElements2.Length; i++)
         {
             int maxLength = 0;
-            string[] lines = textElements1[i].Split('\n');
+            string[] lines = textElements2[i].Split('\n');
 
-            Console.ForegroundColor = colors[i % colors.Length];
+            Console.ForegroundColor = colors[colors.Length - (i % colors.Length) - 1];
             for (int j = 0; j < lines.Length; j++)
             {
-                Console.SetCursorPosition(position, j + textElements1.Length + 1);
+                Console.SetCursorPosition(position, j + textElements2.Length + 1);
                 Console.WriteLine(lines[j]);
                 if (maxLength < lines[j].Length) maxLength = lines[j].Length;
             }
-            if (i < textElements1.Length - 1) position += maxLength;
+            if (i < textElements2.Length - 1) position += maxLength;
         }
         Console.ResetColor();
     }
