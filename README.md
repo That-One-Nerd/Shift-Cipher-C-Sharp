@@ -1,10 +1,13 @@
-# Shift-Cipher-C-Sharp
+# *CorgiCoder's Shift Cipher*
 
-This is a simple shift cipher written in C#. Nothing too special.
+Welcome to *CorgiCoder's Shift Cipher*! *CorgiCoder's Shift Cipher* is .NET's most optimized and efficient shift cipher.
 
-# How To Use
+## Table of Contents
+[What is a Shift Cipher?](#what-is-a-shift-cipher)
+[How does *CorgiCoder's Shift Cipher* beat the competition?](#how-does-corgicoders-shift-cipher-beat-the-competition)
 
-1. Open using visual studio
-2. Run the file
-3. Enter your string to be encrypted
-4. enter the amount you want to shift the letters
+---
+
+## What is a Shift Cipher?
+
+## How does *CorgiCoder's Shift Cipher* beat the competition?
