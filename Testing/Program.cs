@@ -6,6 +6,6 @@ public static class Program
 {
     public static void Main()
     {
-        ShiftSerializer shift = new();
+        ShiftSerializer shift = ShiftSerializer.CreateDefault();
     }
 }
